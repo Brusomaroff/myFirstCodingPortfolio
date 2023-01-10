@@ -5,13 +5,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center; 
-    
 }
 
 nav{
@@ -76,4 +83,20 @@ h1{
 
 h2{
     font-size: 30px;
+}
+
+.about{
+    position: relative;
+    left: 850px;
+    top: 50px ;
+}
+
+.about-text{
+    position: relative;
+    left: 100px;
+    top: 60px;
+}
+
+.container .about .intro{
+    flex-wrap: wrap;
 }
