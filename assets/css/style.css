@@ -11,26 +11,8 @@ body {
     background-position:center;
     background-attachment: fixed;
     width: 100%;
-    flex-wrap: wrap;
 }
 
-.hero{
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center; 
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    padding-top: 20px;
-    padding-left: 4%;
-    padding-right: 4%;
-    background-color: lightsteelblue;
-    height: 60px;
-}
 
 .logo{
     color: black;
@@ -43,10 +25,23 @@ span{
     color: red;
 }
 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(145, 181, 227);
+    height: 82px;
+}
+
+
 nav ul li{
+    font-size: 15px;
     list-style: none;
     display: inline-block;
     padding: 8px  25px;
+    flex-wrap: wrap;
 }
 
 nav ul li a{
@@ -57,24 +52,28 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: red;
+    color: white;
     transition:after .4s;
 }
 
 img{
-    position: absolute;
     border-style:solid;
-    padding: 4px;
+    padding: 2px;
     width: 400px;
     height: 500px;
-    bottom: 200px;
-    left: 70px;
 }
 
 .intro{
-position: absolute;
-bottom: 500px;
-left: 650px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 70px;
+    padding-right: 80px;
+    text-align: center;
+}
+
+.hello{
+    padding-top: 100px;
 }
 
 h1{
@@ -86,17 +85,17 @@ h2{
 }
 
 .about{
-    position: relative;
-    left: 850px;
-    top: 50px ;
-}
-
-.about-text{
-    position: relative;
-    left: 100px;
-    top: 60px;
-}
-
-.container .about .intro{
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.work{
+    padding-top: 200px;
+    text-align: center;
 }
