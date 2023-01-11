@@ -25,10 +25,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    padding-top: 1%;
     padding-left: 4%;
     padding-right: 4%;
     background-color: rgb(145, 181, 227);
-    height: 82px;
+    height: fit-content;
 }
 
 
@@ -47,7 +48,7 @@ nav ul li a{
     text-transform: capitalize;
 }
 
-nav ul li a:hover{
+nav ul li a:hover, h3:hover, footer ul li a:hover{
     color: white;
     transition:after .4s;
 }
@@ -90,10 +91,8 @@ h2{
     font-size: 30px;
 }
 
-h3:hover{
+h3{
     font-size: 20px;
-    color: white;
-    transition:after .4s;
 }
 
 h4{
@@ -135,3 +134,31 @@ h4{
     border-color: black;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(61, 130, 220);
+    height:fit-content;
+}
+
+footer ul li{
+    font-size: 15px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px  40px;
+    flex-wrap: wrap;
+   
+}
+
+footer ul li a{
+    flex-wrap: wrap;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
