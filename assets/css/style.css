@@ -21,10 +21,6 @@ body {
 
 }
 
-span{
-    color: red;
-}
-
 nav{
     display: flex;
     align-items: center;
@@ -56,12 +52,22 @@ nav ul li a:hover{
     transition:after .4s;
 }
 
-img{
+.img{
     border-style:solid;
     padding: 2px;
     width: 400px;
     height: 500px;
+    border-color: black;
 }
+
+.preview{
+    border-style:solid;
+    padding: 2px;
+    width: 450px;
+    height: 550px;
+    border-color: black;
+}
+
 
 .intro{
     flex-wrap: wrap;
@@ -84,6 +90,18 @@ h2{
     font-size: 30px;
 }
 
+h3:hover{
+    font-size: 20px;
+    color: white;
+    transition:after .4s;
+}
+
+h4{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+
 .about{
     padding-top: 100px;
     text-align: center;
@@ -99,3 +117,12 @@ h2{
     padding-top: 200px;
     text-align: center;
 }
+
+.holder{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
