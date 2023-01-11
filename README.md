@@ -10,6 +10,7 @@
 
 ## Step 5: I had to make sure that my website has a responsive layout that adapts to my/others viewport.
 ---
+Link to my website here
 https://brusomaroff.github.io/myFirstCodingPortfolio/
 ![top-2](https://user-images.githubusercontent.com/120063382/211783539-df9f2d69-d1ca-4ff9-a1aa-f53aceba35b5.png)
 ![bottom-1](https://user-images.githubusercontent.com/120063382/211783567-6f7bc856-f02a-4ad1-bde2-a52f8daba8dc.png)
