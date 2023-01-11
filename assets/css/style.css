@@ -124,5 +124,14 @@ h4{
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+}
+
+.preview-place{
+    border-style:solid;
+    padding: 2px;
+    width: 350px;
+    height: 450px;
+    border-color: black;
 }
 
