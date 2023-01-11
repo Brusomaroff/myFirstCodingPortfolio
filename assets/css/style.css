@@ -47,7 +47,7 @@ nav ul li a{
     font-weight: bold;
     text-transform: capitalize;
 }
-
+/* this makes the links turn white while hovered over*/
 nav ul li a:hover, h3:hover, footer ul li a:hover{
     color: white;
     transition:after .4s;
@@ -106,9 +106,9 @@ h4{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding-left: 200px;
-    padding-right: 200px;
+    justify-content: center;
+    padding-left: 25%;
+    padding-right: 25%;
     
 }
 
